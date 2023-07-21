@@ -1,0 +1,136 @@
+.formTitle {
+  margin-bottom: 80px;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.formElement:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(43, 43, 43);
+}
+
+.asterisk {
+  color: rgb(244, 76, 76);
+}
+
+.inputWrapper {
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.input,
+.selectInput {
+  width: 100%;
+  padding: 8px 12px;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+
+  outline: none;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 2px;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::placeholder {
+    color: rgb(171, 171, 171);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: rgb(147, 181, 244);
+  }
+
+  &:hover + .inputIcon,
+  &:focus + .inputIcon {
+    color: rgb(147, 181, 244);
+  }
+}
+
+.selectInput {
+  color: rgb(171, 171, 171);
+
+  /* hide selection arrow */
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.inputIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  color: rgb(208, 208, 208);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.errorMessage {
+  padding-left: 2px;
+
+  font-size: 12px;
+  color: rgb(244, 76, 76);
+}
+
+.buttonList {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 80px;
+}
+
+.cancelBtn,
+.saveBtn {
+  padding: 6px 12px;
+
+  outline: none;
+  border-radius: 2px;
+
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cancelBtn {
+  border: 1px solid rgb(208, 208, 208);
+  color: rgb(43, 43, 43);
+  background-color: transparent;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: rgb(147, 181, 244);
+  }
+}
+
+.saveBtn {
+  border: none;
+  color: rgb(244, 244, 244);
+  background-color: rgb(44, 128, 245);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: rgb(40, 100, 209);
+  }
+}

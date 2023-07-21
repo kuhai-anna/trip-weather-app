@@ -1,0 +1,23 @@
+// List of cities that the API supports
+export const cities = [
+  { value: 'Kyiv', label: 'Kyiv' },
+  { value: 'Odessa', label: 'Odessa' },
+  { value: 'Gdańsk', label: 'Gdańsk' },
+  { value: 'Warszawa', label: 'Warszawa' },
+  { value: 'Kraków', label: 'Kraków' },
+  { value: 'Prague', label: 'Prague' },
+  { value: 'Wien', label: 'Wien' },
+  { value: 'Berlin', label: 'Berlin' },
+  { value: 'Hamburg', label: 'Hamburg' },
+  { value: 'Amsterdam', label: 'Amsterdam' },
+  { value: 'London', label: 'London' },
+  { value: 'Palermo', label: 'Palermo' },
+  { value: 'Madrid', label: 'Madrid' },
+  { value: 'Toronto', label: 'Toronto' },
+  { value: 'Ottawa', label: 'Ottawa' },
+  { value: 'New York', label: 'New York' },
+  { value: 'Los Angeles', label: 'Los Angeles' },
+  { value: 'Washington', label: 'Washington' },
+  { value: 'Las Vegas', label: 'Las Vegas' },
+  { value: 'San Francisco', label: 'San Francisco' },
+];

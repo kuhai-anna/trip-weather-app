@@ -1,0 +1,13 @@
+.appBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.userAvatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}

@@ -1,0 +1,25 @@
+.weatherCard {
+  width: 70px;
+}
+
+.dayOfWeek {
+  margin-bottom: 8px;
+
+  text-align: center;
+  font-size: 10px;
+  color: rgb(156, 156, 156);
+}
+
+.weatherIcon {
+  width: 70px;
+  height: 70px;
+}
+
+.temperature {
+  margin-top: 8px;
+
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+}

@@ -1,0 +1,56 @@
+.slider {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.smallSlider {
+  width: calc(100vw - 514px);
+}
+
+.tripList {
+  display: flex;
+  gap: 40px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.withMarginRight {
+  margin-right: 40px;
+}
+
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 90px;
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+
+  color: rgba(199, 198, 198, 0.816);
+
+  outline: none;
+  border: none;
+  border-radius: 2px;
+
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+
+  transition-property: opacity, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: rgb(147, 181, 244);
+  }
+}
+
+.prevBtn {
+  left: 0;
+}
+
+.nextBtn {
+  right: 220px;
+}

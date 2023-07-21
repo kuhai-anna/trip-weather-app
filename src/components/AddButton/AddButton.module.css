@@ -1,0 +1,24 @@
+.addBtn {
+  min-width: 180px;
+  height: 160px;
+
+  color: rgb(43, 43, 43);
+
+  outline: none;
+  border: none;
+  background-color: rgb(236, 240, 244);
+  border-radius: 2px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: rgb(229, 232, 236);
+  }
+}
+
+.addBtnText {
+  display: block;
+}

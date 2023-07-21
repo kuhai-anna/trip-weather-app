@@ -1,0 +1,18 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 185px 64px 0 64px;
+
+  background-color: rgb(15, 22, 61);
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.asideContainer {
+  flex: 1;
+}

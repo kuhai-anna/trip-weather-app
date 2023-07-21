@@ -1,0 +1,55 @@
+.weatherTodayContainer {
+  color: rgb(241, 241, 241);
+}
+
+.visuallyHidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.dayOfWeek {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.tempWrapper {
+  display: flex;
+  padding-right: 68px;
+}
+
+.temperature {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.deg {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.celsius {
+  padding: 6px 0;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.city {
+  text-align: center;
+  font-size: 26px;
+}

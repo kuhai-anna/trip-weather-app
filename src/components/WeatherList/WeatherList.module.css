@@ -1,0 +1,61 @@
+.visuallyHidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.slider {
+  position: relative;
+  width: calc(100vw - 508px);
+  overflow: hidden;
+}
+
+.weatherList {
+  display: flex;
+  gap: 36px;
+  margin-top: 40px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 80px;
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+
+  color: rgba(199, 198, 198, 0.816);
+
+  outline: none;
+  border: none;
+  border-radius: 2px;
+
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+
+  transition-property: opacity, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: rgb(147, 181, 244);
+  }
+}
+
+.prevBtn {
+  left: 0;
+}
+
+.nextBtn {
+  right: 0px;
+}

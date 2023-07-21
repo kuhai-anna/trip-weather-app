@@ -1,0 +1,26 @@
+.backLink {
+  padding: 24px 4px;
+
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: rgb(43, 43, 43);
+
+  background-color: rgb(236, 240, 244);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: rgb(229, 232, 236);
+  }
+
+  &:hover .iconBack,
+  &:focus .iconBack {
+    transform: rotate(180deg);
+  }
+}
+
+.iconBack {
+  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: rotate(0deg);
+}
