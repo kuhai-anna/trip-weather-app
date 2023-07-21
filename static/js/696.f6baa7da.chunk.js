@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrip_weather_app=self.webpackChunktrip_weather_app||[]).push([[696],{5696:function(e,a,p){e.exports=p.p+"static/media/odessa.08a079ac275cea5fd09e.jpg"}}]);

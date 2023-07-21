@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrip_weather_app=self.webpackChunktrip_weather_app||[]).push([[263],{8263:function(e,p,t){e.exports=t.p+"static/media/wind.9c6497960fb7f3c732a0.svg"}}]);

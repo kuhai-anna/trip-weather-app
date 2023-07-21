@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrip_weather_app=self.webpackChunktrip_weather_app||[]).push([[924],{4924:function(e,p,t){e.exports=t.p+"static/media/berlin.f43ba5d8d57881e76f58.jpg"}}]);
